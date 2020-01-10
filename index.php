@@ -14,7 +14,19 @@ include('foot-head/header.php')
 ?>
 
 <body>
-    
+    <div class="d-flex">
+        <a href="PageRévision.php" class="text-decoration-none">
+        <div class="back-ground mtc-5">
+            <H1 class="centre text-white">Révision</H1>
+        </div>
+        </a>
+        <a href="PageRévision.php" class="text-decoration-none">
+        <div class="back-ground mtc-5">
+            <H1 class="centre text-white">Test</H1>
+        </div>
+        </a>
+    </div>
+
 </body>
 <?php
 include('foot-head/footer.php')
