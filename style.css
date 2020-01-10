@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient( to right,#7158e2, #c8bcff);
+    height: 100%;
+}
+
+.back-ground{
+    background-color: #fed330;
+    height: 200px;
+    width: 200px;
+}
+.mtc-5{
+    margin-top:300px;
+    margin-left: 500px;
+}
+.centre{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
