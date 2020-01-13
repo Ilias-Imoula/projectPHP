@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <title>Document</title>
-</head>
 <?php
 include('foot-head/header.php')
 ?>
@@ -62,9 +51,9 @@ include('foot-head/header.php')
       echo "<h1> $number9 x </h1>"; ?>
       <input class="form-check-input" type="checkbox" name="cal9" id="inlineCheckbox1" value="option1">
     </div>
-    <input type="submit" name="form_submit" value="Soumettre le formulaire">
+    <input type="submit" name="form_submit" value="go">
   </form>
-</body>
+
 <?php if (isset($_POST['cal1'])) {
   echo "<h1> <span class='badge badge-pill badge-warning'>Table de multiplication par 1 </span></h1></br>"."<h1 style='color:yellow;'>"."1 x 1 = ".($number1 * 1)."</br>1 x 2 = ".($number1 * 2)."</br>1 x 3 = ".($number1 * 3)."</br>1 x 4 = ".($number1 * 4)."</br>1 x 5 = ".($number1 * 5)."</br>1 x 6 = ".($number1 * 6)."</br>1 x 7 = ".($number1 * 7)."</br>1 x 8 = ".($number1 * 8)."</br>1 x 9 = ".($number1 * 9)."</br>1 x 10 =".($number1 * 10)."</h1>"; 
 } 
@@ -93,10 +82,8 @@ if (isset($_POST['cal9'])) {
   echo "<h1><span class='badge badge-pill badge-warning'>Table de multiplication par 9</h1></br>"."<h1 style='color:yellow;'>"."9 x 1 = ".($number9 * 1)."</br>9 x 2 = ".($number9 * 2)."</br>9 x 3 = ".($number9 * 3)."</br>9 x 4 = ".($number9 * 4)."</br>9 x 5 = ".($number9 * 5)."</br>9 x 6 = ".($number9 * 6)."</br>9 x 7 = ".($number9 * 7)."</br>9 x 8 = ".($number9 * 8)."</br>9 x 9 = ".($number9 * 9)."</br>9 x 10 =".($number9 * 10)."</h1>"; 
 }
 ?>
+</body>
 <?php
 include('foot-head/footer.php')
 ?>
-<?php
-  
-?>
-</html>
+
